@@ -15,10 +15,8 @@
 * limitations under the License.
 */
 
-#include "mgos.h"
-#include "mgos_lib_sample.h"
+#include "MPU6050.h"
 
-bool mgos_lib_sample_init()
-{
-  return true;
-}
+MPU6050::MPU6050() {}
+
+MPU6050::~MPU6050() {}

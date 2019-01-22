@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef __LIB_SAMPLE__
-#define __LIB_SAMPLE__
+#ifndef __LIB_MPU6050__
+#define __LIB_MPU6050__
 
 #include "mgos.h"
 
@@ -23,10 +23,10 @@
 extern "C" {
 #endif
 
-bool mgos_lib_sample_init(void);
+bool mgos_MPU6050_init(void);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // __MGOS_LIB_SAMPLE__
+#endif // __LIB_MPU6050__

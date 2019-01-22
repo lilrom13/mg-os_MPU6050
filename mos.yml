@@ -13,6 +13,9 @@ sources:
 includes:
   - include
 
+lib:
+  - origin: https://github.com/mongoose-os-libs/i2c
+
 tags:
   - c
 
